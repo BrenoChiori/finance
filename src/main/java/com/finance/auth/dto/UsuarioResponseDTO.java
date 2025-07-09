@@ -1,18 +1,32 @@
-package com.newproject.auth.dto;
+package com.finance.auth.dto;
 
-import com.newproject.auth.model.enums.TipoRole;
+import com.finance.auth.model.enums.TipoRole;
 
-public class CadastroDTO {
+public class UsuarioResponseDTO {
+    private Integer id;
 
     private String nome;
 
     private String email;
 
-    private String senha;
-
     private TipoRole role;
 
-    public CadastroDTO() {
+    public UsuarioResponseDTO() {
+    }
+
+    public UsuarioResponseDTO(Integer id, String nome, String email, TipoRole role) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+        this.role = role;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -29,14 +43,6 @@ public class CadastroDTO {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getSenha() {
-        return senha;
-    }
-
-    public void setSenha(String senha) {
-        this.senha = senha;
     }
 
     public TipoRole getRole() {

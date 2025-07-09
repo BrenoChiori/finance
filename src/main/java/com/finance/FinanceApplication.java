@@ -1,12 +1,12 @@
-package com.newproject;
+package com.finance;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AgritechServiceApplication {
+public class FinanceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AgritechServiceApplication.class, args);
+		SpringApplication.run(FinanceApplication.class, args);
 	}
 }

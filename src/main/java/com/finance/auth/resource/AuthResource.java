@@ -1,9 +1,9 @@
-package com.newproject.auth.resource;
+package com.finance.auth.resource;
 
-import com.newproject.auth.dto.CadastroDTO;
-import com.newproject.auth.dto.LoginDTO;
-import com.newproject.auth.dto.UsuarioResponseDTO;
-import com.newproject.auth.service.AuthService;
+import com.finance.auth.dto.CadastroDTO;
+import com.finance.auth.dto.LoginDTO;
+import com.finance.auth.dto.UsuarioResponseDTO;
+import com.finance.auth.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

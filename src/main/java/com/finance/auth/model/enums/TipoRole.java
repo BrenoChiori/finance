@@ -1,4 +1,4 @@
-package com.newproject.auth.model.enums;
+package com.finance.auth.model.enums;
 
 public enum TipoRole {
     ADMIN,

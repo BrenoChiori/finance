@@ -1,11 +1,11 @@
-package com.newproject.auth.service;
+package com.finance.auth.service;
 
-import com.newproject.auth.dto.CadastroDTO;
-import com.newproject.auth.dto.LoginDTO;
-import com.newproject.auth.dto.UsuarioResponseDTO;
-import com.newproject.auth.model.Usuario;
-import com.newproject.auth.repository.UsuarioRepository;
-import com.newproject.auth.security.JWTService;
+import com.finance.auth.dto.CadastroDTO;
+import com.finance.auth.dto.LoginDTO;
+import com.finance.auth.dto.UsuarioResponseDTO;
+import com.finance.auth.model.Usuario;
+import com.finance.auth.repository.UsuarioRepository;
+import com.finance.auth.security.JWTService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

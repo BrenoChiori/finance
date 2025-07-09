@@ -1,11 +1,12 @@
-package com.newproject.auth.model;
+package com.finance.auth.model;
 
-import com.newproject.auth.model.enums.TipoRole;
+import com.finance.auth.model.enums.TipoRole;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
 @Entity
+@Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "USUARIOS")
 public class Usuario {
 

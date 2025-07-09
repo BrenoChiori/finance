@@ -1,4 +1,4 @@
-package com.newproject.auth.security;
+package com.finance.auth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

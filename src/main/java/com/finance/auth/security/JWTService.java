@@ -1,4 +1,4 @@
-package com.newproject.auth.security;
+package com.finance.auth.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

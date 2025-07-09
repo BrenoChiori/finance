@@ -1,4 +1,4 @@
-package com.newproject.auth.dto;
+package com.finance.auth.dto;
 
 public class LoginDTO {
     private String email;
